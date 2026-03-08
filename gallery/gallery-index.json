@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-03-08T02:14:57Z",
+  "scripts": [
+    {
+      "id": "hn.favorites@1.0.0",
+      "title": "HN Favorites",
+      "byline": "Capture Hacker News favorites pages and outbound links.",
+      "description": "Capture Hacker News favorites pages and outbound links.",
+      "author": "tree-platform",
+      "usage_count": 0,
+      "root_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/hn-favorites",
+      "script_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/hn-favorites/tree-script.mjs",
+      "thumbnail_url": "",
+      "thumb_64": ""
+    },
+    {
+      "id": "hn.submitted@1.0.0",
+      "title": "HN Submitted",
+      "byline": "Capture Hacker News submitted pages with thread context.",
+      "description": "Capture Hacker News submitted pages with thread context.",
+      "author": "tree-platform",
+      "usage_count": 0,
+      "root_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/hn-submitted",
+      "script_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/hn-submitted/tree-script.mjs",
+      "thumbnail_url": "",
+      "thumb_64": ""
+    },
+    {
+      "id": "producthunt.launch_day@1.0.0",
+      "title": "Product Hunt Launch Day",
+      "byline": "Capture launch page, comments, and linked assets.",
+      "description": "Capture launch page, comments, and linked assets.",
+      "author": "tree-platform",
+      "usage_count": 0,
+      "root_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/producthunt-launch-day",
+      "script_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/producthunt-launch-day/tree-script.mjs",
+      "thumbnail_url": "",
+      "thumb_64": ""
+    },
+    {
+      "id": "reading_queue.import@1.0.0",
+      "title": "Reading Queue Import",
+      "byline": "Capture a provided URL list into one TDF collection.",
+      "description": "Capture a provided URL list into one TDF collection.",
+      "author": "tree-platform",
+      "usage_count": 0,
+      "root_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/reading-queue-import",
+      "script_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/reading-queue-import/tree-script.mjs",
+      "thumbnail_url": "",
+      "thumb_64": ""
+    },
+    {
+      "id": "reddit.saved_posts@1.0.0",
+      "title": "Reddit Saved Posts",
+      "byline": "Capture saved Reddit posts and linked references.",
+      "description": "Capture saved Reddit posts and linked references.",
+      "author": "tree-platform",
+      "usage_count": 0,
+      "root_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/reddit-saved-posts",
+      "script_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/reddit-saved-posts/tree-script.mjs",
+      "thumbnail_url": "",
+      "thumb_64": ""
+    },
+    {
+      "id": "x.saved_posts@1.0.0",
+      "title": "X Saved Posts",
+      "byline": "Capture X bookmarks timeline and status permalinks.",
+      "description": "Capture X bookmarks timeline and status permalinks.",
+      "author": "tree-platform",
+      "usage_count": 0,
+      "root_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/x-saved-posts",
+      "script_url": "https://raw.githubusercontent.com/BrowserBox/tree-gallery/main/gallery/collection-scripts/tree-platform/x-saved-posts/tree-script.mjs",
+      "thumbnail_url": "",
+      "thumb_64": ""
+    }
+  ]
+}

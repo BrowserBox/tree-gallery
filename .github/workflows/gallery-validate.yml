@@ -16,5 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Placeholder
-        run: echo "Gallery validation workflow scaffolded"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build gallery index artifacts
+        run: python3 gallery/build_gallery_index.py
+      - name: Validate gallery metadata and script limits
+        run: python3 gallery/validate_gallery.py
+      - name: Ensure generated files are committed
+        run: git diff --exit-code gallery/gallery-scripts.json gallery/gallery-index.json
