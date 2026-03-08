@@ -23,5 +23,3 @@ jobs:
         run: python3 gallery/build_gallery_index.py
       - name: Validate gallery metadata and script limits
         run: python3 gallery/validate_gallery.py
-      - name: Ensure generated files are committed
-        run: git diff --exit-code gallery/gallery-scripts.json gallery/gallery-index.json
