@@ -1,0 +1,20 @@
+name: Gallery Validate
+
+on:
+  pull_request:
+    paths:
+      - 'gallery/**'
+      - '.github/workflows/gallery-validate.yml'
+  push:
+    branches: [ main ]
+    paths:
+      - 'gallery/**'
+      - '.github/workflows/gallery-validate.yml'
+
+jobs:
+  validate-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder
+        run: echo "Gallery validation workflow scaffolded"
